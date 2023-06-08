@@ -1,0 +1,24 @@
+.card-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sales-card {
+  background: linear-gradient(90deg, #ffbf96, #fe7096);
+  color: white;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+
+.order-card {
+  background: linear-gradient(90deg, #90caf9, #047edf 99%);
+  color: white;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}
+.redemption-card {
+  background: linear-gradient(90deg, #84d9d2, #07cdae);
+  color: white;
+  margin-bottom: 8px;
+  border-radius: 8px;
+}

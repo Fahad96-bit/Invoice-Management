@@ -1,0 +1,74 @@
+{
+  "invoices": [
+    {
+      "id": 1,
+      "customerName": "jawwad Ali",
+      "amount": "1000",
+      "dueDate": "1685535004899",
+      "status": "PAID"
+    },
+    {
+      "id": 2,
+      "customerName": "Ali",
+      "amount": "1000",
+      "dueDate": "1685535004899",
+      "status": "PAID"
+    },
+    {
+      "id": 3,
+      "customerName": "Haseeb Ali",
+      "amount": "1000",
+      "dueDate": "1685535004899",
+      "status": "PAID"
+    },
+    {
+      "id": 4,
+      "customerName": "Rahul Ali",
+      "amount": "1000",
+      "dueDate": "1685535004899",
+      "status": "PAID"
+    },
+    {
+      "id": 5,
+      "customerName": "Gandhi Ali",
+      "amount": "1000",
+      "dueDate": "1685535004899",
+      "status": "PAID"
+    },
+    {
+      "id": 6,
+      "customerName": "Muhib Ali",
+      "amount": "1000",
+      "dueDate": -8852799543000,
+      "status": "PAID"
+    },
+    {
+      "id": 7,
+      "customerName": "Kamran Ali",
+      "amount": "1000",
+      "dueDate": "1685535004899",
+      "status": "OVERDUE"
+    },
+    {
+      "id": 8,
+      "customerName": "Yawwar Ali muhammad",
+      "amount": "1000",
+      "dueDate": -8852799543000,
+      "status": "SENT"
+    },
+    {
+      "id": 9,
+      "customerName": "Fahad ali",
+      "amount": "233",
+      "dueDate": 1686039231737,
+      "status": "OVERDUE"
+    },
+    {
+      "id": 10,
+      "customerName": "Mia shareef",
+      "amount": "900",
+      "dueDate": 1686906839795,
+      "status": "SENT"
+    }
+  ]
+}

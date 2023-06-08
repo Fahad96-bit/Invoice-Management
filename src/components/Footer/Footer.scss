@@ -1,0 +1,9 @@
+@import "../../styles/_variables.scss";
+
+.app-footer {
+  margin-left: 0;
+}
+
+.app-footer__fixed {
+  margin-left: $layout-aside-width;
+}

@@ -1,0 +1,28 @@
+@import "../../styles/_variables.scss";
+
+.app-sidebar {
+  z-index: 2;
+  box-shadow: 5px 0px 8px #666;
+}
+
+.app-sidebar__fixed {
+  position: fixed !important;
+  overflow: "auto";
+  left: 0;
+  height: 100%;
+  width: $layout-aside-width;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.ant-layout-sider {
+  background: $primary-color;
+}
+
+.ant-menu.ant-menu-dark,
+.ant-menu.ant-menu-dark {
+  color: rgba(255, 255, 255, 0.65);
+  background: inherit !important;
+}
