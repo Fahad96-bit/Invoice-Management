@@ -10,8 +10,8 @@
     {
       "id": 2,
       "customerName": "Ali",
-      "amount": "1000",
-      "dueDate": "1685535004899",
+      "amount": 12000,
+      "dueDate": -8852799543000,
       "status": "PAID"
     },
     {

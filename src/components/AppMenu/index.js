@@ -2,12 +2,14 @@ import React, { useRef, useEffect, useState } from "react";
 import groupBy from "lodash/groupBy";
 import map from "lodash/map";
 import { Layout, Menu } from "antd";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { ellipsis } from "../../util/utils";
 import "./AppMenu.scss";
 import CustomIcon from "../CustomIcon";
+import ROUTES from "../../routes/constant.route";
 const AppMenu = (props) => {
   const [currentPath, setCurrentPath] = useState("/home");
+  const navigate = useNavigate();
   let prevLocation = usePrevious(props.location);
   function usePrevious(value) {
     let ref = useRef();
@@ -16,10 +18,12 @@ const AppMenu = (props) => {
     }, [value]);
     return ref.current;
   }
+  useEffect(() => {
+    navigate(ROUTES.DASHBOARD.path);
+  }, []);
 
   useEffect(() => {
-    console.log("prevProps", prevLocation);
-    if (props.location !== prevLocation) {
+    if (props.location !== prevLocation || prevLocation === undefined) {
       onRouteChanged();
     }
   }, [props.location]);
