@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm install`
+
+It will install package dependencies.
+
 ### `npm run json-server`
 
 To start the fake JSON server and enable communication with the entire application, execute the above command. The server will handle the functionality of the db.json file.
